@@ -30,3 +30,14 @@ console.log(employee);  // Print the object of employee
 employee.department = "Human Resources";  // Modify the department of the employee
 employee.position = "Human resources manager";  // Add a new property to the employee
 console.log(employee);  //print the object of employee
+
+// Task 4: Array of objects
+let customers = [
+    {name: "Jayden villa", email: "jaydenvilla@hotmail.com", purchaseAmount: 150},
+    {name: "Louis romone", email: "Louisro@gmail.com", purchaseAmount: 400},
+    {name: "Abigal lynn", email: "Abigallynn@gmail.com", purchaseAmount:100}
+];  // Array of objects of customers
+console.log(customers); // print the array of objects of the customers
+
+customers.push({name: "Thomas king", email: "thomasking@gmail.com", purchaseAmount: 360});  // Add a new customer to the array
+console.log(customer);  // print the array of the customers
